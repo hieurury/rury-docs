@@ -26,7 +26,7 @@ const md = new MarkdownIt({
 })
 
 // Custom code block renderer for language label and copy button
-const defaultRender = md.renderer.rules.fence || function(tokens, idx, options, env, self) {
+const defaultRender = md.renderer.rules.fence || function(tokens, idx, options, _env, self) {
   return self.renderToken(tokens, idx, options)
 }
 
@@ -131,9 +131,9 @@ const exportPdf = () => {
   const opt = {
     margin:       15,
     filename:     'document.pdf',
-    image:        { type: 'jpeg', quality: 1 },
+    image:        { type: 'jpeg' as const, quality: 1 },
     html2canvas:  { scale: 2, useCORS: true, windowWidth: 800 },
-    jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' as const }
   }
   
   html2pdf().set(opt).from(clone).save().then(() => {
@@ -193,7 +193,7 @@ const removeTag = (index: number) => {
   }
 }
 
-const handleTagBackspace = (e: KeyboardEvent) => {
+const handleTagBackspace = (_e: KeyboardEvent) => {
   if (newTagInput.value === '' && metaData.value.tags && metaData.value.tags.length > 0) {
     metaData.value.tags.pop()
   }
