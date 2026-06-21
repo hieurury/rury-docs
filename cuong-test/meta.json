@@ -1,0 +1,9 @@
+{
+  "title": "Toi la 1 con cho",
+  "type": "document",
+  "author":"Cuong Ngo",
+    "description": "Tìm hiểu về var, let, và const.",
+  "tags": ["js", "variables", "let", "const"],
+
+  "difficulty": "advanced"
+}
