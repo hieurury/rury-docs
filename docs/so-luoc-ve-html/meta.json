@@ -1,0 +1,8 @@
+{
+  "type": "series",
+  "title": "Sơ lược về HTML",
+  "description": "Các kiến thức cơ bản về HTML: thẻ, thuộc tính và văn bản.",
+  "category": "html",
+  "difficulty": "beginner",
+  "tags": ["html", "web", "frontend"]
+}

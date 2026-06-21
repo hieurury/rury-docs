@@ -1,3 +1,0 @@
-# tai_lieu_1
-
-Nội dung tài liệu con...

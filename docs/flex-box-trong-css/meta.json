@@ -1,0 +1,8 @@
+{
+  "type": "document",
+  "title": "Flex Box trong CSS",
+  "description": "Tài liệu cơ bản về Flex Box và cách dàn trang.",
+  "category": "css",
+  "difficulty": "beginner",
+  "tags": ["css", "flexbox", "layout"]
+}

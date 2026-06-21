@@ -1,0 +1,1 @@
+node scripts/hooks/post-checkout.js "$1" "$2" "$3"

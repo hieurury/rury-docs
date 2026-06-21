@@ -1,0 +1,8 @@
+{
+  "type": "document",
+  "title": "Khai báo biến trong JavaScript",
+  "description": "Tìm hiểu về var, let, và const.",
+  "category": "javascript",
+  "difficulty": "beginner",
+  "tags": ["js", "variables", "let", "const"]
+}
