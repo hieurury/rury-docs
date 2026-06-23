@@ -1,0 +1,11 @@
+{
+  "type": "series",
+  "title": "Tài liệu git",
+  "description": "Tổng quan về git. Tìm hiểu về các khái niệm cơ bản và cách hoạt động.",
+  "category": "git",
+  "difficulty": "beginner",
+  "tags": [
+    "git",
+    "version manager"
+  ]
+}

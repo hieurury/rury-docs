@@ -1,0 +1,11 @@
+{
+  "type": "document",
+  "title": "Mở đầu",
+  "description": "Cách cài đặt, tích hợp git và github.",
+  "category": "git",
+  "difficulty": "beginner",
+  "tags": [
+    "git",
+    "version manager"
+  ]
+}

@@ -79,6 +79,13 @@ export const CATEGORIES: CategoryConfig[] = [
     tint: 'rgba(0, 120, 212, 0.1)',
     tintText: '#005fa3',
   },
+  {
+    id: 'git',
+    label: 'Git',
+    color: '#f05032',
+    tint: 'rgba(240, 80, 50, 0.1)',
+    tintText: '#c2411e',
+  },
 ]
 
 /** Map for O(1) lookup by id */
